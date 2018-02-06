@@ -1,3 +1,4 @@
+<?php $sidansNamn = "Filmsidan.nu"?>
 <html>
 <head>
         <title><?php echo $pageName ?></title>

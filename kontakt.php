@@ -1,6 +1,5 @@
 <?php
 $pageName = "Kontakt";
-$sidansNamn = "Film.nu";
 
 include './header.php';
 

@@ -1,6 +1,5 @@
 <?php
 $pageName = "Film";
-$sidansNamn = "Film.nu";
 
 include './header.php';
 include './funktioner.php';
