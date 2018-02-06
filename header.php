@@ -1,7 +1,24 @@
-<?php $sidansNamn = "Filmsidan.nu"?>
+<?php $sidansNamn = "Filmsidan.nu";?>
 <html>
 <head>
-        <title><?php echo $pageName ?></title>
+        <title><?php 
+        
+        if(isset($sidansNamn)) {
+            echo $sidansNamn;
+        }
+        else {
+            die("no name found");
+        }
+       ?> || 
+        
+        
+        
+        <?php  if (isset($pageName)) {
+            echo $pageName;
+             }
+             else {
+                 die("no pagename found");
+             };?></title>
     
     <style> 
     body {
